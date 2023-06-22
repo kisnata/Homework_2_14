@@ -6,7 +6,6 @@ public class IntegerListImpl implements IntegerList {
 
   private static final int DEFAULT_INITIAL_CAPACITY = 10;
 
-
   private Integer[] data;
   private int size;
 

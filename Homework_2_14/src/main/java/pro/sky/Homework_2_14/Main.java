@@ -19,7 +19,6 @@ public class Main {
                 10,
                 () -> sortInsertion(Arrays.copyOf(initialArray, initialArray.length))
         );
-
         System.out.println("timeForBubbleSorting = " + timeForBubbleSorting);
         System.out.println("timeForSelectionSorting = " + timeForSelectionSorting);
         System.out.println("timeForInsertionSorting = " + timeForInsertionSorting);

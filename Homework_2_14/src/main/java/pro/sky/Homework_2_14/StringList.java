@@ -16,6 +16,7 @@ public interface StringList {
     // в качестве результата выполнения.
     String add(int index, String item);
 
+
     // Установить элемент
     // на определенную позицию,
     // затерев существующий.

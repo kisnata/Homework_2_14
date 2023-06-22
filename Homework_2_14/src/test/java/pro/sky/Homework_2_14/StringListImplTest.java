@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
 class StringListImplTest {
   private final IntegerList stringList = new IntegerListImpl();
 
+
   @AfterEach
   public void afterEach() {
     stringList.clear();

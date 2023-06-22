@@ -13,7 +13,6 @@ public class StringListImpl implements StringList {
   public StringListImpl() {
     this(DEFAULT_INITIAL_CAPACITY);
   }
-
   public StringListImpl(int initialCapacity) {
     this.data = new String[initialCapacity];
     this.size = 0;
